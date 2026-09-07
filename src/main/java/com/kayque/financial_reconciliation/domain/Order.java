@@ -24,5 +24,5 @@ public class Order {
     private String status;
 
     @Column(name = "created_at", nullable = false)
-    private LocalDateTime dataCriacao;
+    private LocalDateTime createdAt;
 }
